@@ -2,5 +2,13 @@ header {
     text-align: center;
 }
 footer {
-    text-align: left;
+    text-align: right;
+}
+
+.carousel {
+    height: 400px;
+}
+
+.carousel img {
+    margin: auto;
 }
