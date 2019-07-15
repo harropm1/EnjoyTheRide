@@ -12,3 +12,7 @@ footer {
 .carousel img {
     margin: auto;
 }
+
+#range {
+    padding: 0px 6px;
+}
