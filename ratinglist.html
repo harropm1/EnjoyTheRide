@@ -72,7 +72,18 @@
                     <a class="dropdown-item" href="#">Joey</a>
                 </div>
             </div>
-            <div class="form-check">
+            <form name="addList" action="#" method="GET" class="addList">
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <input type="text" class="form-control" id="list" placeholder="List Name" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-outline-secondary">Add</button>
+                        <button type="reset" class="btn btn-outline-secondary">Reset</button>
+                    </div>
+                </div>
+            </form>
+            <div class="form-check public">
                 <input class="form-check-input" type="checkbox" value="" id="makePublic">
                 <label class="form-check-label" for="makePublic">
                     Click here to make your list public
@@ -849,14 +860,14 @@
                 </tbody>
             </table>
             <!--End Table-->
-            <!--Start Form-->
-            <form>
+            <!--Start add ride Form-->
+            <form name="addRide" action="#" method="GET">
                 <div class="form-row">
                     <div class="form-group col-md-4">
                         <input type="text" class="form-control" id="ride" placeholder="Ride Name" required>
                     </div>
                     <div class="form-group">
-                        <input type="range" class="form-control-range" min="1" max="5" id="range" required>
+                        <input type="range" class="form-control-range" min="1" max="5" step="1" id="range" required>
                     </div>
                     <div class="form-group col-md-2">
                         <input type="text" class="form-control" id="ride" placeholder="Add a Person">
@@ -874,15 +885,16 @@
                     <div class="form-group">
                         <button type="button" class="btn btn-outline-secondary">Add</button>
                         <button type="reset" class="btn btn-outline-secondary">Reset</button>
+                        <button type="button" class="btn btn-outline-secondary">Print</button>
                     </div>
                 </div>
             </form>
-
+            <!--End add ride Form-->
         <hr>
         <!--footer-->
         <footer class="text-right">
             <p>&copy;Michelle Harrop 2019. Content provided by <a href="https://disneyworld.disney.go.com/"
-                    target="_blank">Walt Disney World</a></p>
+                    target="_blank">Walt Disney World</a> and <a href="https://en.wikipedia.org/wiki/Walt_Disney_World" target="_blank">Wikipedia</a></p>
         </footer>
 
     </main>

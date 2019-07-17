@@ -8,8 +8,9 @@ h2 {
     display: inline;
 }
 
-h3 {
-    margin-top: 15px;
+.public {
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 main {
@@ -17,7 +18,7 @@ main {
 }
 
 th, td {
-    max-width: 105px;
+    max-width: 104px;
 }
 
 .center {
