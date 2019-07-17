@@ -11,6 +11,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--my css-->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/ratinglist_styles.css">
 
     <title>Enjoy The Ride</title>
 </head>
@@ -50,7 +51,7 @@
         </header>
         <!--Select a list-->
             <h2>Park</h2>
-            <div class="dropdown">
+            <div class="dropdown dpdwn">
                 <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Chose A Park</a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -61,7 +62,7 @@
                 </div>
             </div>
             <h2>Person</h2>
-            <div class="dropdown">
+            <div class="dropdown dpdwn">
                 <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="choseperson1"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Chose A Person</a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -71,6 +72,12 @@
                     <a class="dropdown-item" href="#">Joey</a>
                 </div>
             </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="makePublic">
+                <label class="form-check-label" for="makePublic">
+                    Click here to make your list public
+                </label>
+            </div>
             <!--end select a list-->
 
             <h3>Magic Kingdom Ratings</h3>
@@ -79,18 +86,18 @@
                 <thead>
                     <tr>
                         <th>Attraction</th>
-                        <th>Rating</th>
-                        <th>Person</th>
-                        <th>Edit</th>
-                        <th>Delete</th>
+                        <th class="center">Rating</th>
+                        <th class="center">Person</th>
+                        <th class="center">Edit</th>
+                        <th class="center">Delete</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>Big Thunder Mountain Railroad</td>
-                        <td>5</td>
-                        <td>Mom</td>
-                        <td>
+                        <td class="center">5</td>
+                        <td class="center">Mom</td>
+                        <td class="center">
                             <!-- Edit modal button -->
                             <button type="button" class="btn btn-dark btn-sm" data-toggle="modal"
                                 data-target="#editBTMR">
@@ -149,7 +156,7 @@
                             </div>
                             <!--end modal edit-->
                         </td>
-                        <td>
+                        <td class="center">
                             <!-- Delete modal button -->
                             <button type="button" class="btn btn-dark btn-sm" data-toggle="modal"
                                 data-target="#deleteBTMR">
@@ -183,9 +190,9 @@
                     </tr>
                     <tr>
                         <td>Space Mountain</td>
-                        <td>4</td>
-                        <td>Mom</td>
-                        <td>
+                        <td class="center">4</td>
+                        <td class="center">Mom</td>
+                        <td class="center">
                             <!-- Edit modal button-->
                             <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#editSM">
                                 Edit
@@ -243,7 +250,7 @@
                             </div>
                             <!--end modal -->
                         </td>
-                        <td>
+                        <td class="center">
                             <!-- Delete modal button -->
                             <button type="button" class="btn btn-dark btn-sm" data-toggle="modal"
                                 data-target="#deleteSM">
@@ -277,9 +284,9 @@
                     </tr>
                     <tr>
                         <td>Mad Tea Party</td>
-                        <td>5</td>
-                        <td>Dad</td>
-                        <td>
+                        <td class="center">5</td>
+                        <td class="center">Dad</td>
+                        <td class="center">
                             <!-- Edit modal button-->
                             <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#editMTP">
                                 Edit
@@ -337,7 +344,7 @@
                             </div>
                             <!--end modal -->
                         </td>
-                        <td>
+                        <td class="center">
                             <!-- Delete modal button -->
                             <button type="button" class="btn btn-dark btn-sm" data-toggle="modal"
                                 data-target="#deleteMTP">
@@ -371,9 +378,9 @@
                     </tr>
                     <tr>
                         <td>&quot;it&apos;s a small world&quot;</td>
-                        <td>2</td>
-                        <td>Dad</td>
-                        <td>
+                        <td class="center">2</td>
+                        <td class="center">Dad</td>
+                        <td class="center">
                             <!-- Edit modal button-->
                             <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#editSW">
                                 Edit
@@ -431,7 +438,7 @@
                             </div>
                             <!--end modal -->
                         </td>
-                        <td>
+                        <td class="center">
                             <!-- Delete modal button -->
                             <button type="button" class="btn btn-dark btn-sm" data-toggle="modal"
                                 data-target="#deleteSW">
@@ -465,9 +472,9 @@
                     </tr>
                     <tr>
                         <td>The Barnstormer</td>
-                        <td>5</td>
-                        <td>Ella</td>
-                        <td>
+                        <td class="center">5</td>
+                        <td class="center">Ella</td>
+                        <td class="center">
                             <!-- Edit modal button-->
                             <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#editBarn">
                                 Edit
@@ -525,7 +532,7 @@
                             </div>
                             <!--end modal -->
                         </td>
-                        <td>
+                        <td class="center">
                             <!-- Delete modal button -->
                             <button type="button" class="btn btn-dark btn-sm" data-toggle="modal"
                                 data-target="#deleteBarn">
@@ -559,9 +566,9 @@
                     </tr>
                     <tr>
                         <td>Haunted Mansion</td>
-                        <td>3</td>
-                        <td>Ella</td>
-                        <td>
+                        <td class="center">3</td>
+                        <td class="center">Ella</td>
+                        <td class="center">
                             <!-- Edit modal button-->
                             <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#editHaunted1">
                                 Edit
@@ -619,7 +626,7 @@
                             </div>
                             <!--end modal -->
                         </td>
-                        <td>
+                        <td class="center">
                             <!-- Delete modal button -->
                             <button type="button" class="btn btn-dark btn-sm" data-toggle="modal"
                                 data-target="#deleteHaunted1">
@@ -653,9 +660,9 @@
                     </tr>
                     <tr>
                         <td>Haunted Mansion</td>
-                        <td>5</td>
-                        <td>Joey</td>
-                        <td>
+                        <td class="center">5</td>
+                        <td class="center">Joey</td>
+                        <td class="center">
                             <!-- Edit modal button-->
                             <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#editHaunted2">
                                 Edit
@@ -713,7 +720,7 @@
                             </div>
                             <!--end modal -->
                         </td>
-                        <td>
+                        <td class="center">
                             <!-- Delete modal button -->
                             <button type="button" class="btn btn-dark btn-sm" data-toggle="modal"
                                 data-target="#deleteHaunted2">
@@ -747,9 +754,9 @@
                     </tr>
                     <tr>
                         <td>Enchanted Tales with Belle</td>
-                        <td>1</td>
-                        <td>Joey</td>
-                        <td>
+                        <td class="center">1</td>
+                        <td class="center">Joey</td>
+                        <td class="center">
                             <!-- Edit modal button-->
                             <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#editBelle">
                                 Edit
@@ -807,7 +814,7 @@
                             </div>
                             <!--end modal -->
                         </td>
-                        <td>
+                        <td class="center">
                             <!-- Delete modal button -->
                             <button type="button" class="btn btn-dark btn-sm" data-toggle="modal"
                                 data-target="#deleteBelle">
@@ -845,15 +852,18 @@
             <!--Start Form-->
             <form>
                 <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <input type="text" class="form-control" id="ride" placeholder="Ride Name">
+                    <div class="form-group col-md-4">
+                        <input type="text" class="form-control" id="ride" placeholder="Ride Name" required>
                     </div>
                     <div class="form-group">
-                        <input type="range" class="form-control-range" min="1" max="5" id="range">
+                        <input type="range" class="form-control-range" min="1" max="5" id="range" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <input type="text" class="form-control" id="ride" placeholder="Add a Person">
                     </div>
                     <div class="dropdown col-md-2">
                         <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="choseperson2"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Chose A Person</a>
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" required>Chose A Person</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                             <a class="dropdown-item" href="#">Mom</a>
                             <a class="dropdown-item" href="#">Dad</a>
