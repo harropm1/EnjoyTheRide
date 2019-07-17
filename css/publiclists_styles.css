@@ -1,3 +1,6 @@
 td, th {
     max-width: 150px;
 }
+header>p {
+    display: inline;
+}
