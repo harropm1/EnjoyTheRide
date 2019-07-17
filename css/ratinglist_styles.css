@@ -9,8 +9,7 @@ h2 {
 }
 
 .public {
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 main {
@@ -23,4 +22,8 @@ th, td {
 
 .center {
     text-align: center;
+}
+
+.addList {
+    margin-top: 20px;
 }
