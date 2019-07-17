@@ -27,3 +27,8 @@ th, td {
 .addList {
     margin-top: 20px;
 }
+
+
+#range {
+    padding: 0px 6px;
+}
