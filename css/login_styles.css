@@ -1,4 +1,4 @@
-/* Extra small devices (phones, 600px and down) */
+ /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     h1 {
         font-family: 'Raleway', sans-serif;
@@ -6,9 +6,6 @@
     }
     .jumbotron {
         display: none;
-    }
-    .mk-entrance-sm {
-        display: inline;
     }
     .login, .rememberMe1 {
         margin-right: 4px;
@@ -26,9 +23,6 @@
     .jumbotron {
         display: none;
     }
-    .mk-entrance-sm {
-        display: inline;
-    }
     .login, .rememberMe1 {
         margin-right: 4px;
         margin-left: 25px;
@@ -40,9 +34,6 @@
     h1 {
         font-family: 'Raleway', sans-serif;
         font-weight: 600; 
-    }
-    .mk-entrance-sm {
-        display: none;
     }
     .jumbotron {
         display: inline;
@@ -64,12 +55,6 @@
         font-family: 'Raleway', sans-serif;
         font-weight: 800; 
     }
-    .mk-entrance-sm {
-        display: none;
-    }
-    .jumbotron {
-        display: inline;
-    }
     .login {
         text-align: center;
     }
@@ -85,12 +70,6 @@
         font-family: 'Raleway', sans-serif;
         font-weight: 800; 
     }
-    .mk-entrance-sm {
-        display: none;
-    }
-    .jumbotron {
-        display: inline;
-    }
     .login {
         text-align: center;
         margin-left: 155px;
@@ -100,11 +79,12 @@
         display: inline-block;
     }
 } 
- 
+
 body, .jumbotron {
     background-color: lightblue;
 }
 
 .jumbotron {
     padding-top: 35px;
+    margin-bottom: -25px;
 }
