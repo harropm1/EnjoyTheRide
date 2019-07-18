@@ -1,7 +1,64 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body  {
+        background-color: red;
+    }
+    h1, h2, h3 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400; 
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: blue;
+    }
+    h1, h2, h3 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600; 
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) { 
+    body {
+        background-color: green;
+    }
+    h1, h2, h3 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600; 
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: yellow;
+    }
+    h1, h2 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800; 
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: purple;
+    }
+    h1, h2 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800; 
+    }
+} 
 .dpdwn {
     display: inline;
     margin-left: 5px;
     margin-right: 10px;
+}
+.arp-group {
+    margin-left: 4px;
 }
 
 h2 {
@@ -32,3 +89,7 @@ th, td {
 #range {
     padding: 0px 6px;
 }
+
+/*body {
+    background-color: lightblue;
+}*/

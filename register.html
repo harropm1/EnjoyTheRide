@@ -13,7 +13,7 @@
     <!--my css and font-->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/register_styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,800&display=swap" rel="stylesheet">
 
     <link rel="icon" href="img/favicon.ico">
     <title>Enjoy The Ride</title>
@@ -49,12 +49,12 @@
     <!--end breadcrumbs-->
 
     <main>
+        <header>
+            <h1>Sign Up</h1>
+        </header>
         <!--Carousel of popular rides-->
         <div class="jumbotron jumbotron-fluid">
             <div class="container col-md-6 offset-md-3">
-                <header>
-                    <h1>Sign Up</h1>
-                </header>
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -123,18 +123,18 @@
                     <label for="address">Address</label>
                     <input type="text" class="form-control" id="address" placeholder="1234 Main St">
                 </div>
-                <div class="form-group col-md-4">
+                <div class="form-group col4 col-md-4">
                     <label for="address2">Address 2</label>
                     <input type="text" class="form-control" id="address2" placeholder="Apartment, studio, or floor">
                 </div>
             </div>
             <div class="form-row justify-content-center">
-                <div class="form-group col-md-4">
+                <div class="form-group col-6 col-sm-4">
                     <label for="city">City</label>
                     <input type="text" class="form-control" id="city">
                 </div>
                 <!--state choice list, you can make this small-->
-                <div class="form-group col-md-2">
+                <div class="form-group col-3 col-sm-2">
                     <label for="state">State</label>
                     <select id="state" class="form-control">
                         <option selected>Choose...</option>
@@ -192,7 +192,7 @@
                     </select>
                 </div>
                 <!--state choice list end-->
-                <div class="form-group col-md-2">
+                <div class="form-group col-3 col-sm-2">
                     <label for="zip">Zip</label>
                     <input type="text" class="form-control" id="zip" placeholder="12345">
                 </div>
@@ -204,22 +204,23 @@
                 </div>
             </div>
             <div class="form-row d-inline-flex hearabout">
-                <p class="mr-md-auto p-2 phear">How did you hear about us?</p>
-                <div class="form-check form-check-inline p-2">
+                <p class="mr-md-auto phear">How did you hear about us?</p>
+                <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="radios" id="radio1" value="Google Search"
                         checked>
                     <label class="form-check-label" for="radio1">Google Search</label>
                 </div>
-                <div class="form-check form-check-inline p-2">
+                <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="radios" id="radio2" value="Referral">
                     <label class="form-check-label" for="radio2">Refered by a friend</label>
                 </div>
-                <div class="form-check form-check-inline p-2">
+                <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="radios" id="radio3" value="other">
                     <label class="form-check-label pr-2" for="radio3">Other</label>
                     <input type="text" class="form-control" id="tellus" placeholder="Tell Us How">
                 </div>
             </div>
+    
             <br />
             <div class="form-group text-center">
                 <button type="submit" class="btn btn-outline-secondary btn-sm login">Sign Up</button>
