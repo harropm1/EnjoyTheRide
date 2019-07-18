@@ -1,58 +1,36 @@
-body, .jumbotron {
-    background-color: lightblue;
-} 
-
-.jumbotron {
-    padding-top: 35px;
-}
-
-.hearabout {
-    margin-left: 200px;
-    margin-right: 100px;
-    margin-top: -15px;
-}
-
-.phear {
-    margin-top: 10px;
-    margin-right: 5px;
-}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    body  {
+        background-color: red;
+    }
     .jumbotron {
         display: none;
+    }
+    img {
+        max-width: 35%;
     }
     h1, h2 {
         font-family: 'Raleway', sans-serif;
         font-weight: 400; 
     }
-    .hearabout {
-        margin-bottom: 20px;
-        margin-left: 40px;
-    }
-    .phear {
-        margin-bottom: 5px;
-    }
+
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .jumbotron {
-        display: none;
+    body {
+        background-color: blue;
     }
     h1, h2 {
         font-family: 'Raleway', sans-serif;
         font-weight: 600; 
     }
-    .hearabout {
-        padding-bottom: 20px;
-        max-width: 260px;
-    }
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) { 
-    .jumbotron {
-        display: inline;
+    body {
+        background-color: green;
     }
     h1, h2 {
         font-family: 'Raleway', sans-serif;
@@ -62,6 +40,9 @@ body, .jumbotron {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    body {
+        background-color: yellow;
+    }
     h1, h2 {
         font-family: 'Raleway', sans-serif;
         font-weight: 800; 
@@ -70,8 +51,15 @@ body, .jumbotron {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    body {
+        background-color: purple;
+    }
     h1, h2 {
         font-family: 'Raleway', sans-serif;
         font-weight: 800; 
     }
 } 
+
+/* body, .jumbotron {
+    background-color: lightblue;
+} */
