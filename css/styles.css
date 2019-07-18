@@ -14,11 +14,13 @@ h2, h3 {
 }
 
 .carousel {
-    height: 400px;
+    max-height: 400px;
 }
 
 .carousel img {
     margin: auto;
+    max-height: 400px;
+    width: auto;
 }
 
 footer {

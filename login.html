@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,800&display=swap" rel="stylesheet">
 
     <link rel="icon" href="img/favicon.ico">
+
     <title>Enjoy The Ride</title>
 </head>
 
@@ -87,15 +88,9 @@
                 </div>
             </div>
         </div>
-        <section class="container-fluid">
-            <div class="row">
-                <div class="col-md-8 text-center">
-                    <img src="img/mk-entrance-vsm.jpg" alt="Magic Kingdom Entrance" class="mk-entrance-sm">
-                </div>
-            </div>
-        </section>
         <!--End carousel-->
         <br />
+
         <!--login form-->
         <!--<form class="row" name="login" action="ratinglist.html" method="Post">-->
         <form class="row" name="login" action="ratinglist.html" method="GET">
@@ -105,15 +100,15 @@
             </div>
             <div class="form-group col-md-6 offset-md-3">
                 <label for="password1">Password</label>
-                <input type="password" class="form-control" id="password1" placeholder="Password" required>
+                <input type="password" class="form-control" id="password1" placeholder="Password" minlength="8" maxlength="20"required>
             </div>
             <br />
             <div class="form-group form-check col-md-4 offset-md-4 rememberMe1">
                 <input type="checkbox" class="form-check-input" id="rememberMe1">
                 <label class="form-check-label" for="rememberMe1">Remember Me</label>
             </div>
-            <button type="submit" class="btn btn-outline-secondary btn-sm login">Log In</button>
-            <button type="reset" class="btn btn-outline-secondary btn-sm reset">Reset</button>
+            <button type="submit" class="btn btn-secondary btn-sm login">Log In</button>
+            <button type="reset" class="btn btn-secondary btn-sm reset">Reset</button>
         </form>
 
         <hr>

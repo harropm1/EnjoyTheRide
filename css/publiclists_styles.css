@@ -62,14 +62,14 @@ body {
     background-color: lightblue;
 }
 
-td, th {
-    max-width: 150px;
-}
-
 header {
     text-align: center;
 }
 
 header>p {
     display: inline-block;
+}
+
+td, th {
+    max-width: 150px;
 }
